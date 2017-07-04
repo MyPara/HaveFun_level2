@@ -1,0 +1,26 @@
+.input_control{
+  width:360px;
+  margin:20px auto;
+}
+input[type="text"]{
+  box-sizing: border-box;
+  text-align:center;
+  font-size:1.4em;
+  height:2.7em;
+  border-radius:4px;
+  border:1px solid #c8cccf;
+  color:#6a6f77;
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  display:block;
+  outline:0;
+  padding:0 1em;
+  text-decoration:none;
+  width:100%;
+}
+button{
+  cursor: pointer; width: 360px;  height:2.7em; background-color: #FF6600;  border-radius:4px; font-size: 16px; color: #fff; border: 0;
+}
+input[type="text"]:focus{
+  border:1px solid #ff7496;
+}

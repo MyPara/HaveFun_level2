@@ -1,0 +1,72 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="utf-8"%>
+<%@ page import="sendEmail.util.TestSendEmail"%>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="@tianqi">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+<link rel="stylesheet" type="text/css" href="./input.css">
+<SCRIPT type="text/javascript" src="js/jquery.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="js/jquery.cookie.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="js/tools.js"></SCRIPT>
+<SCRIPT charset="UTF-8" type="text/javascript" src="js/index.js"></SCRIPT>
+
+<title>I did this for u</title>
+<!--  
+<script language="JavaScript">
+	alert("hi~");
+	alert("i love u!")
+	do {
+		var myName = prompt("do  u love me?(suggest answer：YES)", "")
+		if (myName == "no" || myName == "No" || myName == "NO" || myName == "不"
+				|| myName == "不的") {
+			var c = Math.random() * 2 + 1;
+			var a = Math.round(c);
+			switch (a) {
+			case 1: {
+				alert(":)");
+				break;
+			}
+			case 2: {
+				alert("不好使:)");
+				break;
+			}
+			case 3: {
+				alert("THINK ONE MORE TIME!");
+				break;
+			}
+
+			}
+		}
+		if (myName == "yes" || myName == "YES") {
+			alert("我也爱你，么么哒~");
+			alert("author @tianqi :)&&(ps:我不是坏人……不要举报我！！)");
+			break;
+		} else {
+			alert("HEHE");
+			alert("SENT U BACK AND U CAN SAY ONE MORE TIME!")
+		}
+	} while (myName != "YES" || myName != "yes")
+	var nums = prompt(
+			"one last thing^Can i have ur phone numb? u can write it down here",
+			"")
+</script>
+-->
+</head>
+<body>
+		<div class="input_control">
+			<input type="text" id="name" 
+				placeholder="Enter ur name here" /><br>
+		
+			<input type="text" id="numb"
+				placeholder="Enter ur phone numb here" />
+		</div>
+		<div class="input_control">
+			<button>Send an Email</button>
+		</div>
+</body>
+</html>
