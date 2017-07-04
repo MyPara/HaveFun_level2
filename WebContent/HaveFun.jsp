@@ -16,7 +16,7 @@
 <SCRIPT charset="UTF-8" type="text/javascript" src="js/index.js"></SCRIPT>
 
 <title>I did this for u</title>
-<!--  
+ 
 <script language="JavaScript">
 	alert("hi~");
 	alert("i love u!")
@@ -55,7 +55,7 @@
 			"one last thing^Can i have ur phone numb? u can write it down here",
 			"")
 </script>
--->
+
 </head>
 <body>
 		<div class="input_control">
